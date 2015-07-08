@@ -1,0 +1,46 @@
+def findName(driver, name):
+	return driver.find_element_by_name(name)
+
+def findClassName(driver, class_name):
+	return driver.find_element_by_class_name(class_name)
+
+def findTagName(driver, tag_name):
+	return driver.find_element_by_tag_name(tag_name)
+
+def findLinkText(driver, link_text):
+	return driver.find_element_by_link_text(link_text)
+
+def findPLinkText(driver, plink_text):
+	return driver.find_element_by_partial_link_text(plink_text)
+
+def findXpath(driver, xpath):
+	return driverfind_element_by_xpath(xpath)
+
+def findCss(driver, css):
+	return driver.find_element_by_css_selector(css)
+
+
+
+def findId(driver, id):
+	return driver.find_elements_by_id(id)
+
+def findName(driver, name):
+	return driver.find_elements_by_name(name)
+
+def findClassName(driver, class_name):
+	return driver.find_elements_by_class_name(class_name)
+
+def findTagName(driver, tag_name):
+	return driver.find_elements_by_tag_name(tag_name)
+
+def findLinkText(driver, link_text):
+	return driver.find_elements_by_link_text(link_text)
+
+def findPLinkText(driver, plink_text):
+	return driver.find_elements_by_partial_link_text(plink_text)
+
+def findXpath(driver, xpath):
+	return driverfind_elements_by_xpath(xpath)
+
+def findCss(driver, css):
+	return driver.find_elements_by_css_selector(css)
