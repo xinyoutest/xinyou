@@ -20,7 +20,7 @@ from object_db import getCookie
 from login_model import login_ajax
 from login_model import login_varify_success
 from login_model import login_varify_error
-import inspect
+
 
 class Login(unittest.TestCase):
 
@@ -30,8 +30,6 @@ class Login(unittest.TestCase):
         set_implicitly_wait(self, 60)
         # 设置页面加载等待时间
         set_page_toload_timeout(self, 60)
-        "%s.%s invoked"%(self.__class__.__name__, get_current_function_name())
-        sys.exit()
 
     def tearDown(self):
         self.dr.quit()
@@ -58,7 +56,8 @@ class Login(unittest.TestCase):
         start_Browser(self)
         login_ajax(self)
         login_varify_error(self, "email_password")
-        self.error_image_name = __file__.split('\\')[-1].split('.')[0]
+        self.error_image_name = __file__.split(
+            '\\')[-1].split('.')[0] + "-" + sys._getframe().f_code.co_name
         save_error_image(self)
         self.dr.close()
 
@@ -72,7 +71,8 @@ class Login(unittest.TestCase):
         start_Browser(self)
         login_ajax(self)
         login_varify_error(self, "password")
-        self.error_image_name = __file__.split('\\')[-1].split('.')[0]
+        self.error_image_name = __file__.split(
+            '\\')[-1].split('.')[0] + "-" + sys._getframe().f_code.co_name
         save_error_image(self)
         self.dr.close()
 
@@ -99,7 +99,8 @@ class Login(unittest.TestCase):
         start_Browser(self)
         login_ajax(self)
         login_varify_error(self, "email_password")
-        self.error_image_name = __file__.split('\\')[-1].split('.')[0]
+        self.error_image_name = __file__.split(
+            '\\')[-1].split('.')[0] + "-" + sys._getframe().f_code.co_name
         save_error_image(self)
         self.dr.close()
 
@@ -113,7 +114,8 @@ class Login(unittest.TestCase):
         start_Browser(self)
         login_ajax(self)
         login_varify_error(self, "password")
-        self.error_image_name = __file__.split('\\')[-1].split('.')[0]
+        self.error_image_name = __file__.split(
+            '\\')[-1].split('.')[0] + "-" + sys._getframe().f_code.co_name
         save_error_image(self)
         self.dr.close()
 
