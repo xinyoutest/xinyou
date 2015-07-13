@@ -13,9 +13,9 @@ action_path = apps_path + "\\" + "action"
 conf_path = apps_path + "\\" + "conf"
 sys.path.append(action_path)
 report_path = apps_path + "\\" + "report"
+
+
 # 筛选测试用例文件，并创建测试套件
-
-
 def createSuiteList(subpath, childpath):
     case_lists = []  # 目录下有效测试用例列表
     flists = os.listdir(childpath)  # 目录下所有文件列表
@@ -39,9 +39,8 @@ def createSuiteList(subpath, childpath):
     # main_logger.info(childpath + "目录下筛选出的测试套件列表为：" + str(suite_lists))
     return suite_lists, case_lists
 
+
 # 执行测试套件并生成测试报告
-
-
 def startRunner(suite_lists, case_lists, report_path):
     # 取当前时间：年月日时分秒
     now = time.strftime("%Y%m%d.%H%M%S", time.localtime(time.time()))

@@ -22,7 +22,7 @@ from login_model import login_varify_success
 from login_model import login_varify_error
 
 
-class Login(unittest.TestCase):
+class AjaxLogin(unittest.TestCase):
 
     def setUp(self):
         self.dr = chrome()
