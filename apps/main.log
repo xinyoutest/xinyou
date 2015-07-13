@@ -1,0 +1,10 @@
+{打印日志的时间:'Mon, 13 Jul 2015 15:23:54'} - {打印当前执行程序的路径:D:\xinyou\apps\main.py} - {打印日志的当前函数:createSuiteList} : {打印日志的当前行号:24} - {打印日志信息:D:\xinyou\apps\action\login目录下所有文件列表为：['start_login.py', '__init__.py']}
+{打印日志的时间:'Mon, 13 Jul 2015 15:23:54'} - {打印当前执行程序的路径:D:\xinyou\apps\main.py} - {打印日志的当前函数:createSuiteList} : {打印日志的当前行号:30} - {打印日志信息:D:\xinyou\apps\action\login目录下有效测试用例文件列表为：[]}
+{打印日志的时间:'Mon, 13 Jul 2015 15:24:54'} - {打印当前执行程序的路径:D:\xinyou\apps\main.py} - {打印日志的当前函数:createSuiteList} : {打印日志的当前行号:24} - {打印日志信息:D:\xinyou\apps\action\login目录下所有文件列表为：['start_login.py', '__init__.py']}
+{打印日志的时间:'Mon, 13 Jul 2015 15:24:54'} - {打印当前执行程序的路径:D:\xinyou\apps\main.py} - {打印日志的当前函数:createSuiteList} : {打印日志的当前行号:30} - {打印日志信息:D:\xinyou\apps\action\login目录下有效测试用例文件列表为：[]}
+{打印日志的时间:'Mon, 13 Jul 2015 15:25:14'} - {打印当前执行程序的路径:D:\xinyou\apps\main.py} - {打印日志的当前函数:createSuiteList} : {打印日志的当前行号:23} - {打印日志信息:D:\xinyou\apps\action\login目录下所有文件列表为：['start_login.py', '__init__.py']}
+{打印日志的时间:'Mon, 13 Jul 2015 15:25:14'} - {打印当前执行程序的路径:D:\xinyou\apps\main.py} - {打印日志的当前函数:createSuiteList} : {打印日志的当前行号:29} - {打印日志信息:D:\xinyou\apps\action\login目录下有效测试用例文件列表为：[]}
+{打印日志的时间:'Mon, 13 Jul 2015 15:26:17'} - {打印当前执行程序的路径:D:\xinyou\apps\main.py} - {打印日志的当前函数:createSuiteList} : {打印日志的当前行号:23} - {打印日志信息:D:\xinyou\apps\action\login目录下所有文件列表为：['start_login.py', '__init__.py']}
+{打印日志的时间:'Mon, 13 Jul 2015 15:26:17'} - {打印当前执行程序的路径:D:\xinyou\apps\main.py} - {打印日志的当前函数:createSuiteList} : {打印日志的当前行号:29} - {打印日志信息:D:\xinyou\apps\action\login目录下有效测试用例文件列表为：[]}
+{打印日志的时间:'Mon, 13 Jul 2015 15:26:44'} - {打印当前执行程序的路径:D:\xinyou\apps\main.py} - {打印日志的当前函数:createSuiteList} : {打印日志的当前行号:23} - {打印日志信息:D:\xinyou\apps\action\login目录下所有文件列表为：['start_login.py', '__init__.py']}
+{打印日志的时间:'Mon, 13 Jul 2015 15:26:44'} - {打印当前执行程序的路径:D:\xinyou\apps\main.py} - {打印日志的当前函数:createSuiteList} : {打印日志的当前行号:29} - {打印日志信息:D:\xinyou\apps\action\login目录下有效测试用例文件列表为：[]}
